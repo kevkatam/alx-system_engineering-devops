@@ -12,5 +12,7 @@ The 3-listfiles file has a script that lists the files in a directory in the lon
 The 4-listmorefiles file has a script that lists the files in a directory including the filrd that start with '.'
 The 5-listfilesdigitonly list the files in Long format, with user and group IDs displayed numerically, And hidden files (starting with .)
 The file 7-movethatfile moves the file betty from /tmp/ directory to my_fist_directory
+The file 8-firstdelete deletes the file betty from /tmp/
+The file 12-file_type prints the type of file named iamafile in /tmp/ directory
 >>>>>>> 42cb5cb2e1f627a32509a54831fb87850968f657
 >>>>>>> 4b001d21dc9ae48ce6fd2cacaa024f5a814b227c
