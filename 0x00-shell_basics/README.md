@@ -12,6 +12,7 @@ The 5-listfilesdigitonly list the files in Long format, with user and group IDs 
 
 =======
 The file 7-movethatfile moves the file betty from /tmp/ directory to my_fist_directory
+The file 9-myfirstdirdeletion deletes the directory my_first_directory
 >>>>>>> 89360267cf31ecdd54a5e95e04b01250793bcbac
 >>>>>>> 42cb5cb2e1f627a32509a54831fb87850968f657
 >>>>>>> 4b001d21dc9ae48ce6fd2cacaa024f5a814b227c
