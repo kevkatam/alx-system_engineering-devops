@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(printf "%s," *)" | sed 's/,$/\n/'
+ls -1A | sed -e 's/^/.\//' -e '$!s/$/,/' -e 's/\/$/\//' | tr -d '\n'
