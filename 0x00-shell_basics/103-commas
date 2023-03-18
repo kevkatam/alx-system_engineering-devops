@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1ap | paste -sd, - | sed 's/, /,/g' | LC_ALL=C sort -df | sed -e '1i\./' -e '2i\..\n' | tr '\n' ',' | tr -d '\040'
+ls -1ap | sed -e '1i\./' -e '2i\..\n' | grep -v '/\.$' | paste -sd, - | sed 's/, /, /g'
