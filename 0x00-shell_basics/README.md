@@ -25,6 +25,7 @@ The file 100-lets_move moves all files beginning with an uppercase letter to the
 The file 101-clean_emacs deletes all files in the current working directory that end with the character ~
 The file 102-tree creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory
 The file 103-commas lists all the files and directories of the current directory, separated by commas (,)
+The file school.mgc is a magic file school.mgc that can be used with the command file to detect School data files. 
 >>>>>>> 78e4e964341db306eb3eed46c37e7c3488848802
 >>>>>>> 42cb5cb2e1f627a32509a54831fb87850968f657
 >>>>>>> 4b001d21dc9ae48ce6fd2cacaa024f5a814b227c
