@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1ap | sed -e '1i\./' -e '2i\..\n' | grep -v '/\.$' | paste -sd, - | sed 's/, /, /g'
+echo "$(printf "%s," *)" | sed 's/,$/\n/'
