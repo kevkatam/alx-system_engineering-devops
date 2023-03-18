@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | awk '{gsub(/$/, "\\/"); print}' | paste -sd, - | sed 's/, /,/g' | LC_ALL=C sort -df | sed '1i\.\n\.\.' | sed 's/$/\//g' | tr '\n' ','
+ls -a1p | sed 's/\(.*\)\/$/\1\/,/' | LC_ALL=C sort -df | sed 's/, /,/g' | tr '\n' ','
