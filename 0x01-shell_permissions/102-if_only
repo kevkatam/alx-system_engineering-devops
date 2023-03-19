@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ $(stat -c %U hello) == "guillaume" ]\nthen\n    sudo chown betty hello\nthen \nfi
