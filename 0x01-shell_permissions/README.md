@@ -13,3 +13,4 @@ The script 10-mirror_permissions sets the mode of the file hello the same as oll
 The script 11-directories_permissions dds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 The script 12-directory_permissions creates a directory called my_dir with permissions 751 in the working directory.
 The script 13-change_group changes the group owner to school for the file hello
+The script 100-change_owner_and_group changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
