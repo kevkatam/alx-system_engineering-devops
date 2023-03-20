@@ -18,4 +18,5 @@ The script 16-whatsnext display lines containing the pattern “root” and 3 li
 The script 17-hidethisword display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
 The script 18-letteronly display all lines of the file /etc/ssh/sshd_config starting with a letter.
 The script 19-AZ replace all characters A and c from input to Z and e respectively.
-:The script 20-hiago Create a script that removes all letters c and C from input.
+The script 20-hiago Create a script that removes all letters c and C from input.
+The script 21-reverse reverses its input.
