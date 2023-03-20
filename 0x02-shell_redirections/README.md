@@ -20,3 +20,4 @@ The script 18-letteronly display all lines of the file /etc/ssh/sshd_config star
 The script 19-AZ replace all characters A and c from input to Z and e respectively.
 The script 20-hiago Create a script that removes all letters c and C from input.
 The script 21-reverse reverses its input.
+The script 22-users_and_homes displays all users and their home directories, sorted by users.
