@@ -8,3 +8,4 @@ The script 6-create_local_variable creates a new local variable Name: BEST, Valu
 The script 7-create_global_variable reates a new global variable creates a global variable name:BEST, value:School 
 The script 8-true_knowledge prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 The script 9-divide_and_rule prints the result of POWER divided by DIVIDE, followed by a new line.
+The script 10-love_exponent_breath displays the result of BREATH to the power LOVE
