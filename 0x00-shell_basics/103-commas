@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | grep "^[0-9a-zA-Z]\|^\.\/\|^\.\.\/" | sed 's/$/,/' | tr -d '\n'
+ls -am --file-type
