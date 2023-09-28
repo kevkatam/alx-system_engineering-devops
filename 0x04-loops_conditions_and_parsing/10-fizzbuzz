@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#a script that  displays numbers from 1 to 100 (FizzBuzz)
+i=1
+for i in {1..100}; do
+	j=$((i % 3))
+	k=$((i % 5))
+	l=$((i % 3))
+	m=$((i % 5))
+	if [ "$j" -eq 0 ] && [ "$k" -eq 0 ]
+	then
+		echo "FizzBuzz"
+	elif [ "$l" -eq 0 ]
+	then
+		echo "Fizz"
+	elif [ "$m" -eq 0 ]
+	then
+		echo "Buzz"
+	else
+		echo "$i"
+	fi
+done
