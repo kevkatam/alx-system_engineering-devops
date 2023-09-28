@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#script that display time from 0 to 12 hours
+i=0
+j=1
+while [ "$i" -le 12 ]; do
+	echo "Hour: $i"
+	while [ "$j" -le 59 ]; do
+		echo "$j"
+		((j++))
+	done
+	j=1
+	((i++))
+done
