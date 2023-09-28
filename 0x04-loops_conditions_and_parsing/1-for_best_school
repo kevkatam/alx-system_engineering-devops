@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#script that uses an if statement
 for _ in {0..9}; do
 	echo "Best School"
 done
