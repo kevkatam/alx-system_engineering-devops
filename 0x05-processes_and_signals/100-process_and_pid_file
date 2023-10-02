@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#bash script that displays some messages when signals are sent
+echo $$ > /var/run/myscript.pid
+trap 'echo "I hate the kill command"; rm -rf /var/run/myscript.pid; exit' SIGTERM
+trap 'echo "Y U no love me?!"' SIGQUIT
+trap 'rm -rf /var/run/myscript.pid; exit' SIGQUIT
+while :
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
