@@ -1,4 +1,4 @@
-
+# 0x00-shell_basics
 - The file 2-bring_me_home has a script that when executed takes one to home directory
 - This script prints the absolute path name of the current working directory
 - The 1-listit file has a script that lists the contents of the current directory=======
