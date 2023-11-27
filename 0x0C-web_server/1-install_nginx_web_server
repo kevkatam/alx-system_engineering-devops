@@ -2,5 +2,14 @@
 #script that installs nginx web server and displays hello world string
 apt-get -y update
 apt-get -y install nginx
+
+echo "server {
+   listen 80;
+   server_name _;
+   root /var/www/html;
+   location / {
+     index index.nginx-debian.html;
+    }
+}" > /etc/nginx/sites-available/default
 echo "Hello World!" > /var/www/html/index.nginx-debian.html
 service nginx start
