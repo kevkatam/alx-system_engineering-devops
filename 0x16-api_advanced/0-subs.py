@@ -25,4 +25,4 @@ def number_of_subscribers(subreddit):
         return 0
     if 'subscribers' not in d.get('data'):
         return 0
-    return d['data']['subscribers']
+    return req.json()['data']['subscribers']
