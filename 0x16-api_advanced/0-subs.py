@@ -13,9 +13,9 @@ def number_of_subscribers(subreddit):
     useragent = 'Mozilla/5.0'
 
     headers = {
-            'User-Agent': useragent
-            }
-    url = 'https://ww.reddit.com/r/{}/about.json'.format(subreddit)
+        'User-Agent': useragent
+    }
+    url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
     req = requests.get(url, headers=headers, allow_redirects=False)
 
     if req.status_code != 200:
