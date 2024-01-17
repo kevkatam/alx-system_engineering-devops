@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#installs and configures haproxy load balancer
+apt-get -y install software-properties-common
+add-apt-repository -y ppa:vbernat/haproxy-2.0
+apt-get -y update
+apt-get -y install haproxy=2.0.\*
+echo -e "\nfrontend http\n\tbind *:80\n\tmode http\n\tdefault_backend web-backend\n\nbackend web-backend\n\tbalance roundrobin\n\tserver 326577-web-01 54.87.240.110:80 check\n\tserver 326577-web-02 100.25.168.5:80 check" >> /etc/haproxy/haproxy.cfg
+servic haproxy restart
