@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #server login
 
-eval $("ssh-agent")
+eval "$(ssh-agent)"
 
 ssh-add ~/alx-system_engineering-devops/0x0B-ssh/school
 
